@@ -232,11 +232,11 @@ public class FtpMainActivity extends Activity implements OnClickListener {
 				null);
 		final EditText editHost = (EditText) rootLoadView.findViewById(R.id.editFTPHost);
 		final EditText editPort= (EditText) rootLoadView.findViewById(R.id.editFTPPort);
-		editPort.setText("2121");
-		editHost.setText("10.2.20.153");
+		editPort.setText("21");
+		editHost.setText("192.168.1.118");
 		final EditText editUser = (EditText) rootLoadView.findViewById(R.id.editFTPUser);
 		final EditText editPasword= (EditText) rootLoadView.findViewById(R.id.editPassword);
-		editUser.setText("ftpuser");
+		editUser.setText("root");
 		editPasword.setText("123456");
 		return new AlertDialog.Builder(this)
 				.setTitle("请输入FTP信息")

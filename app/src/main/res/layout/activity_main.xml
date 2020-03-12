@@ -2,7 +2,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
     <TextView
         android:layout_width="match_parent"
@@ -11,7 +12,9 @@
         android:padding="@dimen/padding_medium"
         android:text="请选中文件进行操作"
         android:textSize="20sp"
-        tools:context=".MainActivity" />
+      />
+
+
 
     <ListView
         android:id="@+id/listviewApp"
